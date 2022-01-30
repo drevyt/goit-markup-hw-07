@@ -29,6 +29,11 @@ address {
     line-height: 1.7;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    }
 } 
 
 .footer__list .item:not(:last-child) {
@@ -41,11 +46,6 @@ address {
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
 }*/
-
-.footer__list .link:hover,
-.footer__list .link:focus {
-    color: var(--accent-color);
-}
 
 .footer__logo--accent {
     color: var(--text-button-color);
@@ -90,10 +90,10 @@ address {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     margin-right: 12px;
-}
 
-.footer-form-input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
 }
 
 .submit-button, .modal-button { 
