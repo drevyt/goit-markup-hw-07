@@ -1,14 +1,14 @@
-.main-nav {
-    display: flex;
-    align-items: center;
-}
-
-.header-container {
+.page-header__container {
     display: flex;
     align-items: center;
 }
 .page-header {
     border-bottom: 1px solid #ECECEC;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 
 /*Logo*/
@@ -26,7 +26,7 @@
 /*Site nav*/
 .site-nav {
     display: flex;   
-    & .item + .item {
+    & .site-nav__item + .site-nav__item {
         margin-left: 50px;
     }
      
@@ -81,7 +81,7 @@
     display: flex;
     margin-left: auto;
 
-    & .item + .item {
+    & .contact-nav__item + .contact-nav__item {
         margin-left: 50px;
     }
 }

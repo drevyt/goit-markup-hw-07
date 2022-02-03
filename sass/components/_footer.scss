@@ -20,7 +20,7 @@ address {
     margin-top: 20px;
 }
 
-.footer__list .link  {
+.footers .link  {
     display: block;
     
     color: var(--text-button-color);
@@ -36,7 +36,7 @@ address {
     }
 } 
 
-.footer__list .item:not(:last-child) {
+.footers__item:not(:last-child) {
     margin-bottom: 9px;
   }
 
@@ -63,7 +63,7 @@ address {
 .footer-social {
     margin-right: 93px;
 }
-.social-title {
+.footer-social__title {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 700;
@@ -81,7 +81,7 @@ address {
     margin-right: 12px;
 }*/
 
-.footer-form-input {
+.footer-form__input {
     width: 358px;
     margin: 0;
     padding: 15px 16px;

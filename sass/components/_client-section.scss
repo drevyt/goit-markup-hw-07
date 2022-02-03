@@ -1,19 +1,19 @@
 /*Client*/
-.client-list {
+.clients {
     display: flex;
 
-    & .item {
+    & .clients__item {
         margin-right: 30px;
         width: 170px;
         height: 92px;
     }
 
-    & .item:nth-child(6) {
+    & .clients__item:nth-child(6) {
         margin-right: 0;
     }
 }
 
-.client__link {
+.clients__link {
     display: flex;
     border: 1px solid #AFB1B8;
     width: 100%;
@@ -31,7 +31,7 @@
     }
 }
 
-.client__icon {
+.clients__icon {
     width: 106px;
     height: 60px;
 }

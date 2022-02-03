@@ -1,13 +1,12 @@
 /*Features*/
-.features__list {
+.features {
     display: flex;
 
-    & .item {
+    & .features__item {
         width: 270px;
         margin-right: 30px;
     }
-    
-    & .item:nth-child(4) {
+    .features__item:nth-child(4) {
         margin-right: 0;
     }
 }
@@ -32,7 +31,7 @@
     line-height: 1.7;
 }
 
-.features {
+.features__box {
     background-color: #F5F4FA;
     height: 120px;
     border-radius: 4px;

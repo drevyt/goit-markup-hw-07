@@ -15,15 +15,15 @@
 }
             
 
-.button.primary {
-    background-color: var(--background-button-color);
-    color: var(--title-text-color);
-}
-.button.secondary {
+.hero__button {
     background-color: var(--accent-color);
     color: var(--text-button-color);
     
     border-radius: 4px;
+}
+.filter__button {
+    background-color: var(--background-button-color);
+    color: var(--title-text-color);
 }
 
 .hero .button {
@@ -40,7 +40,7 @@
     &:focus {
     background-color: var(--background-hover-color);
     color: var(--text-button-color);
-}
+    }
 }
 
 .submit-button, .modal-button { 
@@ -69,8 +69,8 @@
     font-size: 16px;
     line-height: 1.6;
 
-    .portfolio-button &:hover,
-    .portfolio-button &:focus {
+    .filter &:hover,
+    .filter &:focus {
     background-color: var(--accent-color);
     color: var(--text-button-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
@@ -80,11 +80,11 @@
 }
 
 
-.portfolio-button .item + .item {
+.filter__item + .filter__item {
     margin-left: 8px;
 }
 
-.portfolio-button {
+.filter {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;    
